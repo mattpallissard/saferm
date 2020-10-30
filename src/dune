@@ -1,4 +1,3 @@
 (executable
   (name saferm)
-  (modules saferm)
-  (libraries str unix ))
+  (libraries str unix lib))

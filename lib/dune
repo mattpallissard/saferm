@@ -1,5 +1,2 @@
 (library
-  (name lib)
-  (preprocess
-    (action
-     (run %{bin:cppo} -V OCAML:%{ocaml_version} %{input-file}))))
+  (name lib))
